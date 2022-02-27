@@ -1,0 +1,42 @@
+.form {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2000;
+  display: none;
+  justify-content: center;
+  color: #212529;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  padding: 4rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  border-radius: 1rem;
+  background: #eee;
+}
+.btDiv {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.btDiv button {
+  border: 2px solid #212529;
+  color: #212529;
+  border-radius: 10px;
+  width: 60px;
+  height: 40px;
+  margin: 8px;
+  transition: 1s;
+}
+.btDiv button:hover {
+  background: #212529;
+  color: white;
+  border: 2px solid greenyellow;
+}

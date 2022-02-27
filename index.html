@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title></title>
+</head>
+
+<body>
+  <main class="container-fluid">
+
+    <section>
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Código</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Email</th>
+            <th scope="col">Telefone</th>
+            <th scope="col">
+              <div class="btDiv"><button onclick="fecharModal(event)">Novo</button></div>
+
+            </th>
+
+          </tr>
+
+        </thead>
+        <tbody id="dadosTabela">
+
+        </tbody>
+      </table>
+    </section>
+
+    <section class="form">
+      <section>
+        <div class="btDiv"><button onclick="fecharModal()">X</button></div>
+        <form id="formularioEnvio" onsubmit="salvar(event)">
+          <label for="codigo">Código</label>
+          <input id="codigo" name="codigo" type="text">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email">
+          <label for="telefone">Telefone</label>
+          <input id="telefone" name="telefone" type="tel">
+          <div class="btDiv"><button>salvar</button></div>
+          <span id="validação">
+      </section>
+      </span>
+      </form>
+    </section>
+
+    </section>
+  </main>
+  <section id="modal" class="modalform">
+
+
+  </section>
+  <script src="./app.js"></script>
+</body>
+
+</html>
