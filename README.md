@@ -1,2 +1,2 @@
 
-<img width="460" height="360" src ="./assests/gif.localStorage.gif"/>
+<img width="760" height="360" src ="./assests/gif.localStorage.gif"/>
